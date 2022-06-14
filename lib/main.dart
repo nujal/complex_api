@@ -1,6 +1,7 @@
 import 'package:api_practice/posts_screen.dart';
 import 'package:api_practice/main_screen.dart';
 import 'package:api_practice/photos_screen.dart';
+import 'package:api_practice/sign_up.dart';
 import 'package:api_practice/users_screen.dart';
 import 'package:flutter/material.dart';
 

@@ -1,6 +1,7 @@
 import 'package:api_practice/posts_screen.dart';
 import 'package:api_practice/photos_screen.dart';
 import 'package:api_practice/products_screen.dart';
+import 'package:api_practice/sign_up.dart';
 import 'package:api_practice/users_screen.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
@@ -17,12 +18,14 @@ class _MainScreenState extends State<MainScreen> {
   PageController _pageController = new PageController();
 
   final List<Widget> _pages = [
+    SignUpSCreen(),
     PostsScreen(),
     PhotoScreen(),
     UsersScreen(),
     ProductsScreen(),
   ];
   final items = <Widget>[
+    Icon(Icons.person),
     Icon(Icons.post_add_outlined),
     Icon(Icons.photo_album_rounded),
     Icon(Icons.people),
